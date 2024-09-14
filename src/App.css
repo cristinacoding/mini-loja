@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  place-content: center;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: rgb(245, 244, 244);
+  box-sizing: border-box;
+}
+
+
+body {
+  --sb-track-color: rgb(245, 244, 244);
+  --sb-thumb-color: #ffb9a1;
+  --sb-size: 7px;
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size)
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 10px;
+  
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color)
+                     var(--sb-track-color);
+  }
+}
+
+input,
+button,
+select,
+textarea,
+optgroup,
+option {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.shopHeader {
+  display: flex;
+  position: sticky;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 1.6em;
+  column-gap: 3em;
+  top: 0;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  padding: 1.4em;
+  box-sizing: border-box;
+  color: white;
+}
+
+.shopHeader input {
+  background: none;
+  border: 0;
+  height: 6px;
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 2em;
+  min-width: 0;
+  flex-shrink: 1;
+}
+
+.shopHeader input:focus {
+  outline: 0;
+  background-color: #ffb8a154;
+}
+
+.shopHeader .searchBar {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  border-radius: 2em;
+  height: 2em;
+  padding: 0.8em 1.6em 0.8em 0.8em;
+  font-size: 1em;
+  background-color: white;
+  color: black;
+  flex-shrink: 1;
+}
+
+.shopHeader .userIcons {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+gap: 1.2em;
+}
+
+.shopHeader .userIcons *:hover {
+cursor: pointer;
+}
+
+.shopHeader h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.productsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  max-width: 1300px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.productCard {
+  background-color: white;
+  border-radius: 0.6em;
+  width: 280px;
+  min-height: 480px;
+  box-sizing: border-box;
+  padding: 0.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.2em;
+  box-shadow: 0px 0px 20px 0px rgba(3, 10, 77, 0.04);
+  transition: 350ms ease-out;
+  outline: 3px solid white;
+}
+
+.productCard:hover {
+  cursor: pointer;
+  outline: 3px solid black;
+  box-shadow: 0px 0px 40px 0px rgba(3, 10, 77, 0.15);
+}
+
+.productCard h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.productCard p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.productCard img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.3em;
+}
+
+.productCard .productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.productCard .productInfo p {
+border-bottom: 1px solid rgba(128, 128, 128, 0.253);
+padding: 0.3em;
+display: flex;
+align-items: center;
+gap: 0.3em;
+}
+
+.productCard .productProperty {
+  color: black;
+  font-weight: 800;
+  font-size: 1.3em;
+  align-self: flex-end;
+}
+
+.productCard button {
+  border: 0;
+  background-color: #000;
+  background-position: bottom;
+  border-radius: 0.6em;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.2em;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  font-size: 0.8em;
+  margin: 0;
+  transition: 300ms ease-in-out;
+  text-transform: uppercase;
+  align-self: end;
+  justify-self: end;
+}
+
+.productCard button:hover {
+  cursor: pointer;
+  color: #ffb9a1;
+}
+
+::selection {
+  color: black;
+  background-color: #ffb9a1;
+}
+
+.shopFooter {
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+  min-height: 260px;
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  padding: 3em;
+  box-sizing: border-box;
+  color: white;
+  font-size: 0.9em;
+}
+
+.shopFooter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.shopFooter a {
+  color: white;
+  text-decoration: none;
+}

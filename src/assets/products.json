@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "brand": "Garnier",
+    "name": "Pure Active Micellar Cleansing Water",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "125 ml",
+    "price": 60,
+    "rating": 3.2
+  },
+  {
+    "id": 2,
+    "brand": "L'Oréal",
+    "name": "Revitalift Hyaluronic Acid Serum",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "30 ml",
+    "price": 80,
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "brand": "Neutrogena",
+    "name": "Hydro Boost Water Gel",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "50 ml",
+    "price": 70,
+    "rating": 4.1
+  },
+  {
+    "id": 4,
+    "brand": "Olay",
+    "name": "Regenerist Micro-Sculpting Cream",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "50 ml",
+    "price": 90,
+    "rating": 4.7
+  },
+  {
+    "id": 5,
+    "brand": "Nivea",
+    "name": "Soft Moisturizing Cream",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "200 ml",
+    "price": 50,
+    "rating": 4.0
+  },
+  {
+    "id": 6,
+    "brand": "Cetaphil",
+    "name": "Gentle Skin Cleanser",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "500 ml",
+    "price": 85,
+    "rating": 4.3
+  },
+  {
+    "id": 7,
+    "brand": "La Roche-Posay",
+    "name": "Effaclar Purifying Foaming Gel",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "200 ml",
+    "price": 95,
+    "rating": 4.6
+  },
+  {
+    "id": 8,
+    "brand": "The Ordinary",
+    "name": "Niacinamide 10% + Zinc 1%",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "30 ml",
+    "price": 55,
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "brand": "CeraVe",
+    "name": "Hydrating Cleanser",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "355 ml",
+    "price": 78,
+    "rating": 4.2
+  },
+  {
+    "id": 10,
+    "brand": "Bioderma",
+    "name": "Sensibio H2O Micellar Water",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "500 ml",
+    "price": 110,
+    "rating": 4.8
+  },
+  {
+    "id": 11,
+    "brand": "Aveeno",
+    "name": "Daily Moisturizing Lotion",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "354 ml",
+    "price": 65,
+    "rating": 4.3
+  },
+  {
+    "id": 12,
+    "brand": "Vichy",
+    "name": "Mineral 89 Booster",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "50 ml",
+    "price": 105,
+    "rating": 4.7
+  },
+  {
+    "id": 13,
+    "brand": "Eucerin",
+    "name": "Advanced Repair Lotion",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "400 ml",
+    "price": 75,
+    "rating": 4.1
+  },
+  {
+    "id": 14,
+    "brand": "Kiehl's",
+    "name": "Ultra Facial Cream",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "50 ml",
+    "price": 125,
+    "rating": 4.6
+  },
+  {
+    "id": 15,
+    "brand": "Avene",
+    "name": "Thermal Spring Water Spray",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "300 ml",
+    "price": 40,
+    "rating": 4.5
+  },
+  {
+    "id": 16,
+    "brand": "Clinique",
+    "name": "Dramatically Different Moisturizing Lotion",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "125 ml",
+    "price": 99,
+    "rating": 4.4
+  },
+  {
+    "id": 17,
+    "brand": "Simple",
+    "name": "Kind to Skin Hydrating Light Moisturizer",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "125 ml",
+    "price": 45,
+    "rating": 4.2
+  },
+  {
+    "id": 18,
+    "brand": "Philosophy",
+    "name": "Purity Made Simple Cleanser",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "240 ml",
+    "price": 115,
+    "rating": 4.7
+  },
+  {
+    "id": 19,
+    "brand": "Estee Lauder",
+    "name": "Advanced Night Repair Serum",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "50 ml",
+    "price": 150,
+    "rating": 4.8
+  },
+  {
+    "id": 20,
+    "brand": "Shiseido",
+    "name": "Ultimune Power Infusing Concentrate",
+    "img": "./src/assets/img/gradient.svg",
+    "volume": "30 ml",
+    "price": 130,
+    "rating": 4.9
+  }
+]
