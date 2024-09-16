@@ -2,17 +2,19 @@ import React from "react";
 import { Search } from "lucide-react";
 import { ShoppingCart } from "lucide-react";
 import { User } from "lucide-react";
+import styles from "../styles/Header.module.css";
 
 function Header() {
   return (
-    <div className="shopHeader">
-      <h1>Shop</h1>
-      <div className="searchBar">
-        <input placeholder="Procurar produtos..."></input> <Search strokeWidth={4} color="#ffb8a1" />
-      </div>
-      <div className="userIcons">
+    <div className={styles.shopHeader}>
+      <div className={styles.logo}>BEAUTYSHOP!</div>
+      <div className={styles.userIcons}>
         <User strokeWidth={3} />
         <ShoppingCart strokeWidth={3} />
+      </div>
+      <div className={styles.searchBar}>
+        <input placeholder='Procurar produtos...'></input>
+        <Search strokeWidth={4} color='var(--theme)' />
       </div>
     </div>
   );

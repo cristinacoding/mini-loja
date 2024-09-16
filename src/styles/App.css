@@ -1,0 +1,83 @@
+/* ⬇️ VARIAVEIS CSS ⬇️ */
+:root {
+  --theme: #3d52a0;
+  --themeLighter: #7091e6;
+  --themeGray: #8697c4;
+  --themeLightGray: #adbbda;
+  --themeCream: #ede8f5;
+  --scrollBarColor: #3d52a0;
+  --fontFamily: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --headerShadow: 0px 0px 30px 0px rgba(18, 23, 60, 0.1);
+  --cardShadow: 0px 0px 25px 0px rgba(12, 16, 50, 0.05);
+  --cardShadowHover: 0px 0px 30px 0px rgba(18, 23, 60, 0.2);
+  --bodyBackground: linear-gradient(90deg, rgba(237, 232, 245, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--themeCream);
+  background: var(--bodyBackground);
+  background-attachment: fixed;
+  width: 100%;
+  margin: 0 auto;
+  height: fit-content; /* Garante que a altura do html é do tamanho do conteúdo da página */
+  min-height: 100%;
+  min-width: fit-content; /* Garante que a width mínima do html é do tamanho do conteúdo da página */
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  place-content: center;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh; /* Garante que a altura do body é no mínimo o tamanho do viewport */
+  font-family: var(--fontFamily);
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--themeLighter);
+  text-decoration: none;
+}
+
+input,
+button,
+select,
+textarea,
+optgroup,
+option {
+  /* Personaliza varios elementos para terem a mesma fonte */
+  font-family: var(--fontFamily);
+}
+
+/* ⬇️ SCROLLBAR ⬇️ */
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--themeCream);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--scrollBarColor);
+  border-radius: 10px;
+}
+
+/* ⬇️ COR DA SELECCAO DE TEXTO ⬇️ */
+
+::selection {
+  color: white;
+  background-color: var(--theme);
+}

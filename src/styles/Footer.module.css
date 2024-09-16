@@ -1,0 +1,32 @@
+.shopFooter {
+  display: flex;
+  gap: 3em;
+  flex-wrap: wrap;
+  min-height: 260px;
+  height: fit-content;
+  width: 100%;
+  background-color: black;
+  padding: 3em;
+  box-sizing: border-box;
+  color: white;
+  font-size: 0.9em;
+}
+
+.shopFooter ul { /* Personaliza as listas dentro da div com a classe .shopFooter */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.shopFooter a { /* Personaliza os links dentro da div com a classe .shopFooter */
+  color: white;
+  text-decoration: none;
+  transition: color 200ms ease-out;
+}
+
+.shopFooter a:hover {
+  color: var(--themeLighter);
+}
