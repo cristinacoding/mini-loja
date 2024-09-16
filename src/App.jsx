@@ -6,14 +6,17 @@ import CheckoutPage from "./pages/CheckoutPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { useState } from "react";
+import { v4 as uuidv4 } from "uuid";
 
 function App() {
 
   const [cart, setCart] = useState([])
 
-  let addToCart = (produto) =>{
+  const addToCart = (produto) => {
     setCart((prevCart) => [...prevCart, produto]);
   }
+
+  console.log(cart)
 
   return (    
     <Router>
@@ -21,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<ProductsPage addToCart={addToCart}/>} /> 
         <Route path="/products" element={<ProductsPage addToCart={addToCart}/>} />
-        <Route path="/checkout" element={<CheckoutPage>{cart}</CheckoutPage>} />
+        <Route path="/checkout" element={<CheckoutPage cart={cart}></CheckoutPage>} />
       </Routes>
       <Footer />
     </Router>

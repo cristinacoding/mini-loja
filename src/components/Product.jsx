@@ -3,7 +3,8 @@ import React from "react";
 import { Star } from 'lucide-react';
 import styles from '../styles/ProductCard.module.css'
 
-function ProductCard({ product, addToCart }) {
+function ProductCard( { product, addToCart } ) {
+
   return (
     <div className={styles.productCard}>
       <img src={product.img} alt={product.name} />
@@ -16,7 +17,7 @@ function ProductCard({ product, addToCart }) {
         <span className={styles.productPrice}>${product.price}</span>
       </div>
 
-      <button onClick={addToCart(product)}>Add to Cart</button>
+      <button onClick={() => addToCart(product)}>Add to Cart</button>
     </div>
   );
 }
