@@ -29,6 +29,10 @@
   user-select: none;
 }
 
+.shopHeader a {
+  color: white;
+}
+
 /* ⬇️ BARRA DE PESQUISA ⬇️ */
 
 .shopHeader .searchBar {

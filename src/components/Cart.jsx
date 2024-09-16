@@ -1,8 +1,11 @@
 import React from 'react'
+import { ShoppingCart } from "lucide-react";
 
 function Cart() {
   return (
-    <div>Cart</div>
+    <div>
+      <ShoppingCart strokeWidth={3} />
+    </div>
   )
 }
 

@@ -5,15 +5,23 @@ import ProductsPage from "./pages/ProductsPage";
 import CheckoutPage from "./pages/CheckoutPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { useState } from "react";
 
 function App() {
-  return (
+
+  const [cart, setCart] = useState([])
+
+  let addToCart = (produto) =>{
+    setCart((prevCart) => [...prevCart, produto]);
+  }
+
+  return (    
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<ProductsPage />} /> 
-        <Route path="/products" element={<ProductsPage />} />
-        <Route path="/checkout" element={<CheckoutPage />} />
+        <Route path="/" element={<ProductsPage addToCart={addToCart}/>} /> 
+        <Route path="/products" element={<ProductsPage addToCart={addToCart}/>} />
+        <Route path="/checkout" element={<CheckoutPage>{cart}</CheckoutPage>} />
       </Routes>
       <Footer />
     </Router>

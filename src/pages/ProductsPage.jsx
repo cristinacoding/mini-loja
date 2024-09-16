@@ -1,11 +1,11 @@
 import React from "react"
 import ProductsList from "../components/ProductsList"
 
-function ProductsPage() {
+function ProductsPage( {addToCart} ) {
   return (
     <div>
       <h2>Products</h2>
-      <ProductsList></ProductsList>
+      <ProductsList>{addToCart}</ProductsList>
     </div>
   );
 }
