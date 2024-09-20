@@ -11,6 +11,7 @@ function ProductCard( { product, addToCart } ) {
       <h3>{product.name}</h3>
 
       <div className={styles.productInfo}>
+        <p>{product.description}</p>
         <p>{product.brand}</p>
         <p>{product.volume}</p>
         <p>{product.rating} <Star size={14} color="var(--theme)"  strokeWidth={3}/></p>
