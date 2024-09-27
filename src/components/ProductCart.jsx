@@ -1,5 +1,6 @@
 import React, { useState, useEffect  } from 'react'
 import styles from '../styles/ProductCart.module.css'
+import { X } from 'lucide-react';
 
 function ProductCart({ product, cart, setCart }) {
 
@@ -26,20 +27,17 @@ function ProductCart({ product, cart, setCart }) {
 
     return (
         <div className={styles.productCart}>
-            <img src={product.img} alt={product.name} />
+          <img src={product.img} alt={product.name} />
+          <div className={styles.productInfo}>
             <h3>{product.name}</h3>
-
-            <div className={styles.productInfo}>
-                <p>{product.brand}</p>
-                <p>{product.volume}</p>
-                <p>{product.price}</p>
-                <p>Qty: {quantity}</p>
-                <span className={styles.productPrice}>Subtotal: ${product.price * quantity}</span>
-            </div>
-
-            <button onClick={() => removeFromCart(product.id)}>Remove</button>
+            <p>{product.brand}, {product.volume}</p>
+          </div>
+          <p>${product.price}</p>
+          <p>{quantity}</p>
+          <span>${product.price * quantity}</span>
+          <button onClick={() => removeFromCart(product.id)}><X size={16} />Remove</button>
         </div>
-    );
+      );
 }
 
 export default ProductCart

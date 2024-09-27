@@ -14,9 +14,9 @@
   color: white;
   box-shadow: var(--headerShadow);
 }
-
+ 
 /* ⬇️ LOGOTIPO ⬇️ */
-
+ 
 .shopHeader .logo {
   display: flex;
   justify-content: flex-start;
@@ -28,13 +28,13 @@
   padding: 0;
   user-select: none;
 }
-
+ 
 .shopHeader a {
   color: white;
 }
-
+ 
 /* ⬇️ BARRA DE PESQUISA ⬇️ */
-
+ 
 .shopHeader .searchBar {
   /* Personaliza a div que envolve o campo de pesquisa e a lupa */
   display: flex;
@@ -48,7 +48,7 @@
   background-color: white;
   color: var(--theme);
 }
-
+ 
 .shopHeader input {
   /* Personaliza o campo de pesquisa */
   flex-shrink: 1;
@@ -63,61 +63,74 @@
   color: var(--theme);
   transition: background-color 200ms ease-in-out; /* Adiciona uma transição para a propriedade background-color, que dura 200 milisegundos, do tipo ease-in-out */
 }
-
+ 
 .shopHeader ::placeholder {
   /* Personaliza o placeholder dentro do campo de pesquisa */
   color: var(--theme);
   transition: color 200ms ease-in-out;
 }
-
+ 
 .shopHeader input:focus {
   /* Personaliza o campo de pesquisa quando está selecionado */
   outline: 0;
   background-color: var(--themeCream);
   color: black;
 }
-
+ 
 /* ⬇️ ICONES ⬇️ */
-
+ 
 .shopHeader .userIcons {
   display: flex;
   flex-direction: row;
+  gap: 0.2em;
   flex-shrink: 0;
   justify-content: flex-end;
-  gap: 0.4em;
+  justify-items: center;
+  align-items: center;
   flex: 1 1 0;
 }
-
+ 
 .shopHeader .userIcons * {
-  padding: 0.5em;
+  padding: 0.1em;
 }
-
+ 
+.shopHeader .cartItemsQuantity {
+  border-radius: 100%;
+  background: var(--theme);
+  padding: 0.2em 0.5em;
+  position: relative;
+  margin-left: -1em;
+  margin-top: -1em;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+ 
 .shopHeader .userIcons *:hover {
   /* Personaliza as divs filhas (*) da div com a classe .userIcons, quando estao hovered */
   cursor: pointer;
 }
-
+ 
 /* ⬇️ MEDIA QUERIES ⬇️ */
-
-
+ 
+ 
 @media only screen and (min-width: 610px) {
   .shopHeader .userIcons {
     order: 3;
     justify-content: center;
   }
-
+ 
   .shopHeader .logo {
     font-size: 1.6em;
     justify-content: flex-end;
   }
-
+ 
   .shopHeader .searchBar {
     order: 2;
     max-width: 400px;
-    flex: 1 1 0; 
+    flex: 1 1 0;
   }
 }
-
+ 
 @media only screen and (min-width: 900px) {
   .shopHeader .userIcons {
     justify-content: flex-start;

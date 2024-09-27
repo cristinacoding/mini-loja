@@ -1,21 +1,14 @@
 .productCart {
+  width: 800px;
   background-color: white;
-  border-radius: 0.4em;
-  width: 280px;
-  min-height: 480px;
+  border-radius: 0.3em;
   box-sizing: border-box;
   padding: 0.9em;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.2em;
-  box-shadow: var(--cardShadow);
+  flex-direction: row;
+  column-gap: 1em;
   transition: box-shadow 350ms ease-out;
-}
-
-.productCart:hover {
-  cursor: pointer;
-  box-shadow: var(--cardShadowHover);
+  border-bottom: 1px solid var(--themeCream);
 }
 
 .productCart h3 {
@@ -32,8 +25,7 @@
 }
 
 .productCart img {
-  width: 100%;
-  height: 170px;
+  height: 150px;
   object-fit: cover;
   object-position: top;
   border-radius: 0.2em;
@@ -43,11 +35,12 @@
   display: flex;
   flex-direction: column;
   gap: 0.6em;
+  width: 100%;
 }
 
 .productCart .productInfo p {
   border-bottom: 1px solid var(--themeCream);
-  padding: 0.3em;
+  padding: 0.3em 0;
   display: flex;
   align-items: center;
   gap: 0.3em;
@@ -56,25 +49,28 @@
 .productCart .productPrice {
   color: black;
   font-weight: 800;
-  font-size: 1.3em;
+  font-size: 1em;
   align-self: flex-end;
 }
 
-/* ⬇️ BOTAO ADD TO CART ⬇️ */
+/* ⬇️ BOTAO REMOVE ⬇️ */
 
 .productCart button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3em;
   align-self: end;
   justify-self: end;
   border: 0;
   background-color: black;
   background-position: bottom;
   border-radius: 0.5em;
-  width: 100%;
   box-sizing: border-box;
-  padding: 1em;
+  padding: 0.6em;
   font-weight: 700;
   color: white;
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin: 0;
   transition: background 300ms ease-in-out;
   text-transform: uppercase;

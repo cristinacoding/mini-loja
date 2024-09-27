@@ -14,12 +14,14 @@ function Header( {cart} ) {
             BEAUTYSHOP!
           </Link>
         </div>
+      <Link to="/checkout">
       <div className={styles.userIcons}>
-        <Link to="/checkout">
-          <Cart></Cart>
-          🛒 Cart ({cart.reduce((total, item) => total + item.quantity, 0)})
-        </Link>
+        <Cart></Cart>
+          <p className={styles.cartItemsQuantity}>
+            {cart.reduce((total, item) => total + item.quantity, 0)}
+          </p>
       </div>
+      </Link>
       <div className={styles.searchBar}>
         <input placeholder='Procurar produtos...'></input>
         <Search strokeWidth={4} color='var(--theme)' />

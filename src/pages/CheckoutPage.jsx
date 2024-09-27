@@ -18,16 +18,16 @@ function CheckoutPage({ cart, setCart }) {
 
   return (
     <div>
-      <div>CheckoutPage</div>
-
-      <p>{totalPrice}</p>
-
-      {cart.map((product) => (
-        <ProductCart key={product.id} product={product} cart={cart} setCart={setCart} />
-      ))}
-
+      <div><h2>Cart</h2></div>
+      <p></p>
+      <div className='cartList'>
+        {cart.map((product) => (
+          <ProductCart key={product.id} product={product} cart={cart} setCart={setCart} />
+        ))}
+      </div>
+      <b><p>Total: ${totalPrice}</p></b>
     </div>
-  )
+  );
 }
 
 export default CheckoutPage
