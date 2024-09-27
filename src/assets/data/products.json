@@ -1,0 +1,204 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "brand": "Garnier",
+      "name": "Pure Active Micellar Cleansing Water",
+      "img": "https://naturaloilbar.com/wp-content/uploads/2019/06/11171653-1894330378396422.jpg",
+      "volume": "125 ml",
+      "price": 60,
+      "rating": 3.2,
+      "description": "A gentle micellar water that removes makeup, cleanses, and purifies the skin without rinsing."
+    },
+    {
+      "id": 2,
+      "brand": "L'Oréal",
+      "name": "Revitalift Hyaluronic Acid Serum",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/12430126-2114935595660605.jpg",
+      "volume": "30 ml",
+      "price": 80,
+      "rating": 4.5,
+      "description": "Hydrating serum with pure hyaluronic acid that plumps and smooths fine lines and wrinkles."
+    },
+    {
+      "id": 3,
+      "brand": "Neutrogena",
+      "name": "Hydro Boost Water Gel",
+      "img": "https://www.neutrogena.pt/sites/neutrogena_pt/files/styles/product_image/public/product-images/hb-gel_de_agua_pt.png",
+      "volume": "50 ml",
+      "price": 70,
+      "rating": 4.1,
+      "description": "A lightweight water gel moisturizer that quenches dry skin, keeping it hydrated all day long."
+    },
+    {
+      "id": 4,
+      "brand": "Olay",
+      "name": "Regenerist Micro-Sculpting Cream",
+      "img": "https://i5.walmartimages.com/asr/df5274d1-bbfb-4cf5-8931-fc7c8db037ef.90cf0986dc3f6c4974bccef445375507.jpeg",
+      "volume": "50 ml",
+      "price": 90,
+      "rating": 4.7,
+      "description": "Anti-aging face cream that deeply hydrates and improves skin elasticity for a firmer, lifted look."
+    },
+    {
+      "id": 5,
+      "brand": "Nivea",
+      "name": "Soft Moisturizing Cream",
+      "img": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//n/i/nivea-soft-refreshingly-intensive-moisturizing-cream-300ml.jpg",
+      "volume": "200 ml",
+      "price": 50,
+      "rating": 4.0,
+      "description": "A light and refreshing moisturizing cream for face and body, ideal for daily use."
+    },
+    {
+      "id": 6,
+      "brand": "Cetaphil",
+      "name": "Gentle Skin Cleanser",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13908195-1945005274736006.jpg",
+      "volume": "500 ml",
+      "price": 85,
+      "rating": 4.3,
+      "description": "A mild, non-irritating cleanser that soothes and hydrates, leaving skin soft and smooth."
+    },
+    {
+      "id": 7,
+      "brand": "La Roche-Posay",
+      "name": "Effaclar Purifying Foaming Gel",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/11091822-1665138724606009.jpg",
+      "volume": "200 ml",
+      "price": 95,
+      "rating": 4.6,
+      "description": "A purifying foaming gel cleanser for oily and acne-prone skin, gently removes impurities and excess oil."
+    },
+    {
+      "id": 8,
+      "brand": "The Ordinary",
+      "name": "Niacinamide 10% + Zinc 1%",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/11363398-3584901839298679.jpg",
+      "volume": "30 ml",
+      "price": 55,
+      "rating": 4.4,
+      "description": "A high-strength vitamin and mineral blemish formula that reduces the appearance of skin blemishes and congestion."
+    },
+    {
+      "id": 9,
+      "brand": "CeraVe",
+      "name": "Hydrating Cleanser",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/13844319-1664968261752739.jpg",
+      "volume": "355 ml",
+      "price": 78,
+      "rating": 4.2,
+      "description": "A gentle, non-foaming cleanser that cleanses and hydrates without disrupting the skin’s protective barrier."
+    },
+    {
+      "id": 10,
+      "brand": "Bioderma",
+      "name": "Sensibio H2O Micellar Water",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/11450895-1235093162597472.jpg",
+      "volume": "500 ml",
+      "price": 110,
+      "rating": 4.8,
+      "description": "A cleansing and makeup-removing water that respects the fragility of sensitive skin."
+    },
+    {
+      "id": 11,
+      "brand": "Aveeno",
+      "name": "Daily Moisturizing Lotion",
+      "img": "https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//a/v/aveeno-daily-moisturizing-lotion-300ml.jpg",
+      "volume": "354 ml",
+      "price": 65,
+      "rating": 4.3,
+      "description": "Moisturizing lotion with soothing oat that hydrates and helps to restore the skin's natural barrier."
+    },
+    {
+      "id": 12,
+      "brand": "Vichy",
+      "name": "Mineral 89 Booster",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/14566311-3625043940413135.jpg",
+      "volume": "50 ml",
+      "price": 105,
+      "rating": 4.7,
+      "description": "A daily hydrating and plumping booster, formulated with 89% mineralizing water and hyaluronic acid."
+    },
+    {
+      "id": 13,
+      "brand": "Eucerin",
+      "name": "Advanced Repair Lotion",
+      "img": "https://cloudinary.images-iherb.com/image/upload/f_auto,q_auto:eco/images/euc/euc63482/y/53.jpg",
+      "volume": "400 ml",
+      "price": 75,
+      "rating": 4.1,
+      "description": "A fast-absorbing lotion that provides 48-hour moisture and helps repair very dry skin."
+    },
+    {
+      "id": 14,
+      "brand": "Kiehl's",
+      "name": "Ultra Facial Cream",
+      "img": "https://cdn2.parfumdreams.de/image/product/115680-0-0-0.webp?box=528",
+      "volume": "50 ml",
+      "price": 125,
+      "rating": 4.6,
+      "description": "A lightweight facial cream that provides 24-hour hydration, even in extreme conditions."
+    },
+    {
+      "id": 15,
+      "brand": "Avene",
+      "name": "Thermal Spring Water Spray",
+      "img": "https://frenchpharmacy.com/cdn/shop/files/AveneEauThermale_55835728-5a45-4646-97db-58c1c9c0f1e3_800x.jpg?v=1708123538&logged_in_customer_id=&lang=pt",
+      "volume": "300 ml",
+      "price": 40,
+      "rating": 4.5,
+      "description": "Soothing and anti-irritating thermal water spray that softens and restores skin balance."
+    },
+    {
+      "id": 16,
+      "brand": "Clinique",
+      "name": "Dramatically Different Moisturizing Lotion",
+      "img": "https://static.sweetcare.pt/img/prd/488/v-638200520504979746/clinique-001048cq-1.webp",
+      "volume": "125 ml",
+      "price": 99,
+      "rating": 4.4,
+      "description": "A silky lotion that strengthens skin's moisture barrier and delivers all-day hydration."
+    },
+    {
+      "id": 17,
+      "brand": "Simple",
+      "name": "Kind to Skin Hydrating Light Moisturizer",
+      "img": "https://images.othoba.com/images/thumbs/0583310_simple-kind-to-skin-hydrating-light-moisturiser-125ml.jpeg",
+      "volume": "125 ml",
+      "price": 45,
+      "rating": 4.2,
+      "description": "A hydrating lightweight moisturizer enriched with Pro-Vitamin B5 and Vitamin E for soft, smooth skin."
+    },
+    {
+      "id": 18,
+      "brand": "Philosophy",
+      "name": "Purity Made Simple Cleanser",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/12492811-6354969013887365.jpg",
+      "volume": "240 ml",
+      "price": 115,
+      "rating": 4.7,
+      "description": "A gentle, award-winning one-step facial cleanser that tones, hydrates, and removes makeup."
+    },
+    {
+      "id": 19,
+      "brand": "Estee Lauder",
+      "name": "Advanced Night Repair Serum",
+      "img": "https://static.thcdn.com/images/large/original//productimg/1600/1600/12663747-9304918742037918.jpg",
+      "volume": "50 ml",
+      "price": 150,
+      "rating": 4.8,
+      "description": "A powerful nighttime serum that reduces the signs of aging and reveals smoother, radiant skin."
+    },
+    {
+      "id": 20,
+      "brand": "Shiseido",
+      "name": "Ultimune Power Infusing Concentrate",
+      "img": "https://static.thcdn.com/images/small/original//productimg/960/960/13103257-5634881179556870.jpg",
+      "volume": "30 ml",
+      "price": 130,
+      "rating": 4.9,
+      "description": "An anti-aging serum that boosts skin's immunity, fights dullness, and helps with wrinkles and hydration."
+    }
+  ]
+}
